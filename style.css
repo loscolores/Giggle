@@ -7,6 +7,10 @@ body {
   height: 100%;
   overflow: hidden;
   font-family: 'Noto Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
 a {
@@ -33,6 +37,7 @@ a {
 /*main*/
 
 .main_logo {
+  width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 75px;
@@ -96,7 +101,7 @@ input::placeholder {
 /*main- 바로가기 */
 .main_shortcut {
   margin: 0 auto;
-  width: 500px;
+  max-width: 500px;
   display: flex;
   justify-content: space-evenly;
 
